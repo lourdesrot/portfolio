@@ -1,9 +1,61 @@
 
 
+.flex-container {
+    display: flex;
+}
+
+.column-left span {
+    font-size: 4em;
+}
+
+.column-left h3 {
+    font-size: 3em;
+}
+
+.column-left h2 {
+    margin-top: 10px;
+}
+
+.column-left {
+    width: 30vw;
+    padding: 40px;
+    margin-top: 200px;
+}
+
+/* .column-right {
+    width: 80vw;
+    height: 50vw;
+    margin-bottom: 40px;
+    background-image: url("../images/proyecto\ wellness.jpg");
+    background-size: cover;
+    filter: grayscale(100%);
+    cursor: pointer;
+} */
+
+.column-right img {
+    height: 50vw;
+    margin-bottom: 50px;
+    width: 70vw;
+}
+
+.column-right {
+    width: 70vw;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.column-right:hover {
+    filter:none
+}
 
 
-.proyectos img {
+/* .proyectos img {
     width: 40%;
+    filter: grayscale(100%);
+} */
+
+/* .proyectos img:hover {
+    filter: none;
 }
 
 .proyectos h2 {
@@ -15,27 +67,37 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+} */
 
+.sobre-mi p {
+    margin: 50px 100px 300px 280px;
+    font-size: 2em;
+}
 
 .sobre-mi h3 {
-    font-size: 3em;
+    padding: 40px;
+    font-size: 5em;
     text-transform: uppercase;
-
 }
 
+.sobre-mi {
+    margin-bottom: 80px;
+}
 
 .landing h2 {
-    font-size: 4em;
+    font-size: 5em;
     text-transform: uppercase;
+    margin: 20px 0 100px 0;
 }
 
 .landing h3 {
-    font-size: 3em;
+    font-size: 4em;
+    margin: 50px 0 10px 0;
 }
 
 .landing img {
-    width: 30%;
+    width: 25%;
+    filter: grayscale(100%);
 }
 
 .landing {
@@ -44,3 +106,41 @@
     align-items: center;
 }
 
+.navbar a {
+    text-decoration: underline 1px rgba(255, 255, 255, 0);
+    text-underline-offset: 5px;
+    margin-right: 50px;
+    color: black;
+    transition: 0,5s;
+}
+
+.navbar a:hover {
+    text-decoration: underline 1px rgba(0, 0, 0, 1)
+}
+
+.a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    padding: 30px;
+    justify-content: flex-end;
+}
+
+.footer-list a {
+    padding-right: 60px;
+    flex-direction: column;
+    font-size: 2em;
+    color: black;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    height: 100%;
+    margin: 50px 0 50px 0;
+}
