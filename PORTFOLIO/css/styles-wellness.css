@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,300;0,400;0,600;1,300;1,400&display=swap');
+
+.landing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Barlow', sans-serif;
+    padding: 20px 0 30px 0;
+}
+
+.landing h3 {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin-right: 80px;
+    cursor: pointer;
+}
+
+.landing span {
+    writing-mode: vertical-lr;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.landing img {
+    width: 70vw;
+    height: 48vw;
+}
+
+.navbar a {
+    text-decoration: underline 1px rgba(255, 255, 255, 0);
+    text-underline-offset: 5px;
+    margin-right: 50px;
+    color: black;
+    transition: 0,5s;
+}
+
+.navbar a:hover {
+    text-decoration: underline 1px rgba(0, 0, 0, 1)
+}
+
+.a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    padding: 30px;
+    justify-content: flex-end;
+    font-family: 'Barlow', sans-serif;
+}
+
+.title h2 {
+    font-size: 3em;
+    margin: 20px 0 50px 230px;
+}
+
+.title h3 {
+    font-style: italic;
+    font-size: 2em;
+    margin-left: 230px;
+    margin-top: 40px;
+}
+
+.title p {
+    width: 69vw;
+    margin-left: 230px;
+    margin-bottom: 20px;
+}
+
+.title span {
+    width: 69vw;
+    margin-left: 230px;
+}
+
+.title {
+    font-family: 'Barlow', sans-serif;
+    line-height: 20px;
+}
+
+.column-left span {
+    font-size: 2em;
+}
+
+.column-left p {
+    margin-top: 10px;
+}
+
+.column-left {
+    width: 30vw;
+    padding: 30px;
+}
+
+.column-middle span {
+    font-size: 2em;
+}
+
+.column-middle p {
+    margin-top: 10px;
+}
+
+.column-middle {
+    width: 30vw;
+    padding: 30px;
+}
+
+.column-right span {
+    font-size: 2em;
+}
+
+.column-right p {
+    margin-top: 10px;
+}
+
+.column-right {
+    width: 30vw;
+    padding: 30px;
+}
+
+.columnas {
+    font-family: 'Barlow', sans-serif;
+    line-height: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 200px 0 200px;
+}
+
+.soluciones {
+    font-size: 2em;
+    font-style: italic;
+    margin-left: 230px;
+    margin-top: 10px;
+    font-family: 'Barlow', sans-serif;
+    line-height: 20px;
+}
+
+.footer {
+    height: 15vh;
+}
+
+.footer nav {
+    height: 100%;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-list a {
+    padding-right: 60px;
+    flex-direction: column;
+    color: black;
+}
+
+.fa-brands {
+    font-size: 20px;
+    transition: 0,6s;
+}
+
+.fa-brands:hover {
+    transform: scale(1.5);
+}

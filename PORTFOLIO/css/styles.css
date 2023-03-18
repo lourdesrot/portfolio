@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,300;0,400;0,600;1,300;1,400&display=swap');
+
+.flex-container {
+    display: flex;
+}
+
+.column-left span {
+    font-size: 4em;
+}
+
+.column-left h3 {
+    font-size: 3em;
+}
+
+.column-left h2 {
+    margin-top: 10px;
+}
+
+.column-left {
+    font-family: 'Barlow', sans-serif;
+    width: 30vw;
+    padding: 40px;
+    margin-top: 200px;
+}
+
+/* .column-right {
+    width: 80vw;
+    height: 50vw;
+    margin-bottom: 40px;
+    background-image: url("../images/proyecto\ wellness.jpg");
+    background-size: cover;
+    filter: grayscale(100%);
+    cursor: pointer;
+} */
+
+.column-right img {
+    height: 50vw;
+    margin-bottom: 50px;
+    width: 70vw;
+}
+
+.column-right {
+    font-family: 'Barlow', sans-serif;
+    width: 70vw;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.column-right:hover {
+    filter:none
+}
+
+
+/* .proyectos img {
+    width: 40%;
+    filter: grayscale(100%);
+} */
+
+/* .proyectos img:hover {
+    filter: none;
+}
+
+.proyectos h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.proyectos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+.sobre-mi p {
+    margin: 50px 100px 300px 280px;
+    font-size: 2em;
+}
+
+.sobre-mi h3 {
+    padding: 40px;
+    font-size: 5em;
+    text-transform: uppercase;
+}
+
+.sobre-mi {
+    font-family: 'Barlow', sans-serif;
+    margin-bottom: 80px;
+}
+
+.landing h2 {
+    font-size: 5em;
+    text-transform: uppercase;
+    margin: 20px 0 100px 0;
+}
+
+.landing h3 {
+    font-size: 4em;
+    margin: 50px 0 10px 0;
+}
+
+.landing img {
+    width: 25%;
+    filter: grayscale(100%);
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Barlow', sans-serif;
+}
+
+.navbar a {
+    text-decoration: underline 1px rgba(255, 255, 255, 0);
+    text-underline-offset: 5px;
+    margin-right: 50px;
+    color: black;
+    transition: 0,5s;
+}
+
+.navbar a:hover {
+    text-decoration: underline 1px rgba(0, 0, 0, 1)
+}
+
+.a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    padding: 30px;
+    justify-content: flex-end;
+    font-family: 'Barlow', sans-serif;
+}
+
+.footer {
+    height: 15vh;
+}
+
+.footer nav {
+    height: 100%;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-list a {
+    padding-right: 60px;
+    flex-direction: column;
+    color: black;
+}
+
+.fa-brands {
+    font-size: 20px;
+    transition: 0,6s;
+}
+
+.fa-brands:hover {
+    transform: scale(1.5);
+}
