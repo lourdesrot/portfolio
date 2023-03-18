@@ -133,6 +133,11 @@
     line-height: 20px;
 }
 
+.figma {
+    display: block;
+    margin: auto;
+}
+
 .footer {
     height: 15vh;
 }
